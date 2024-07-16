@@ -1,0 +1,50 @@
+.navbar{
+  height: 50px;
+  background-color: #003580;
+  display: flex;
+  justify-content: center;
+}
+
+.navContainer{
+  width: 100%;
+  max-width: 1024px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo{
+  font-weight: 500;
+}
+
+.navButton{
+  margin-left: 20px;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  color: black;
+  text-decoration: underline;
+}
+
+
+
+.navButton a {
+  color: black; /* Set the text color to black */
+  text-decoration: none; /* Remove underline */
+  display: block; /* Make the link fill the button */
+}
+
+.navButton a:hover {
+  text-decoration: none; /* Ensure no underline on hover */
+}
+.navButton {
+  background-color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+}
+
+
